@@ -136,6 +136,8 @@ A list of JSON entries consisting the pkgbase and providers with the versions wh
 #### Disadvantages
 - Manually add upstreams and configs
 
+#### Result
+
 ### Debian's watch file
 
 Debian's watch file mechanism is used to fetch the latest version of software
@@ -148,3 +150,7 @@ https://salsa.debian.org/debian/devscripts/blob/master/scripts/uscan.pl
 
 ### Disadvantages
 - The tool is intended to get the latest tarball of a based on the content of a Debian watch file. Not for reporting a newer version
+
+#### Result
+
+- Downloads the latest version, does not provide a list of versions
